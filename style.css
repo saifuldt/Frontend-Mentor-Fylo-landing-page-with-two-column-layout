@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+
+    --var-VeryDarkBlue: hsl(243, 87%, 12%);
+
+    --var-DesaturatedBlue: hsl(238, 22%, 44%);
+
+    --var-BrightBlue: hsl(224, 93%, 58%);
+
+    --var-ModerateCyan: hsl(170, 45%, 43%);
+
+    --var-LightGrayishBlue: hsl(240, 75%, 98%);
+
+    --var-LightGray: hsl(0, 0%, 75%);
+}
+
+.menu ul{
+    display: flex;
+    gap: 20px;
+    color:var(--var-VeryDarkBlue);
+    font-size: 0.9rem;
+}
+
+
+
+@media screen and (max-width:600px) {
+
+    .foms form{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        justify-content: center;
+        align-items: center;
+    }
+    input.inp, input.promo{
+        border: 2px solid var(--var-LightGray);
+        background-color: white;
+        color: white;
+        width: 350px;
+        height: 40px;
+        border-radius: 5px;
+    }
+    
+    button.btn{
+        border: 2px solid transparent;
+        background-color: var(--var-BrightBlue);
+        color: white;
+        width: 350px;
+        height: 40px;
+        border-radius: 5px;
+        font-size: 1rem;
+        font-weight: 500;
+    }
+
+    .service-provide{
+        background-image: url(./images/bg-curve-mobile.svg) ;
+        background-repeat: no-repeat;
+        background-repeat: no-repeat;
+        background-size: 100% 150px;
+        /* max-width: 400px;
+        height: 50px; */
+        padding-top: 100px;
+    }
+}
+
+@media screen and (min-width:601px) {
+
+    .foms form{
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        justify-content: center;
+        align-items: center;
+    }
+    input.inp{
+        border: 2px solid var(--var-LightGray);
+        background-color: white;
+        color: white;
+        width: 280px;
+        height: 40px;
+        border-radius: 5px;
+    }
+    
+    button.btn{
+        border: 2px solid transparent;
+        background-color: var(--var-BrightBlue);
+        color: white;
+        width: 180px;
+        height: 40px;
+        border-radius: 5px;
+        font-size: 1rem;
+        font-weight: 500;
+    }
+    .service-provide{
+        background-image: url(./images/bg-curve-desktop.svg) ;
+        background-repeat: no-repeat;
+        background-size: 100vw 150px;
+        padding-top: 100px;
+
+    }
+
+    input.promo{
+        border: 2px solid var(--var-LightGray);
+        background-color: white;
+        color: white;
+        width: 380px;
+        height: 50px;
+        border-radius: 5px;
+    }
+}
+
+
