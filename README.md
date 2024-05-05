@@ -2,12 +2,8 @@
 <br>
 ﻿# for Desktop 
  
-![Design preview for As-Sunnah Skill Development institute](./desktop.png)
+![Design preview for As-Sunnah Skill Development institute](./Desktop.png)
 
-
-﻿# forTablet  
- <br>
-![Design preview for As-Sunnah Skill Development institute](./Tab.png)
 
 
 ﻿# for Mobile
